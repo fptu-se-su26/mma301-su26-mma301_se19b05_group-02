@@ -4,11 +4,11 @@
 
 | Item | Description |
 |---|---|
-| Course |  |
-| Class |  |
+| Course | MMA301 |
+| Class | SE19B05 | 
 | Semester | SU26 |
-| Group |  |
-| Topic |  |
+| Group | Group 2 |
+| Topic | Motorbike Rental Management System |
 | Repository |  |
 
 ---
@@ -21,7 +21,7 @@
 | 2 |  |  |  | Member |  |
 | 3 |  |  |  | Member |  |
 | 4 |  |  |  | Member |  |
-| 5 |  |  |  | Member |  |
+| 5 | DE180507 | Mai Xuân Tùng | tungmxde180507-source | Member |  |
 
 ---
 

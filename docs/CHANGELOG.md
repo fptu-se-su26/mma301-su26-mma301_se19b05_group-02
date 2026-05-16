@@ -19,16 +19,15 @@ Nguyên tắc ghi changelog:
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
+| Môn học | Multiplatform Mobile App Development |
+| Mã môn học | MMA301 |
+| Lớp | SE19B05 |
+| Học kỳ | 7 |
 | Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Repository URL |  |
-| Ngày bắt đầu |  |
+| Tên sinh viên / Nhóm | Đặng Phương Khôi Nguyên |
+| MSSV / Danh sách MSSV | DE190434 |
+| Giảng viên hướng dẫn | 	Lê Thiện Nhật Quang |
+| Ngày bắt đầu | 13/5/2026 |
 | Ngày hoàn thành |  |
 
 ---

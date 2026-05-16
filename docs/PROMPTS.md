@@ -4,16 +4,16 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
+| Môn học | MMA301 |
 | Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày bắt đầu |  |
-| Ngày cập nhật gần nhất |  |
+| Lớp | SE19B05 |
+| Học kỳ | 7 |
+| Tên bài tập / Project | Motov - Hệ thống cho thuê xe máy |
+| Tên sinh viên / Nhóm | Nguyễn Hà Tiến Quang / Nhóm 2 |
+| MSSV / Danh sách MSSV | DE190053 |
+| Giảng viên hướng dẫn | QuangLTN3 |
+| Ngày bắt đầu |  15/5/2026 |
+| Ngày cập nhật gần nhất | 16/5/2026 |
 
 ---
 
@@ -36,7 +36,7 @@ Sinh viên/nhóm cần ghi lại:
 
 Đánh dấu các công cụ AI đã sử dụng.
 
-- [ ] ChatGPT
+- [x] ChatGPT
 - [ ] Gemini
 - [ ] Claude
 - [ ] GitHub Copilot
@@ -52,7 +52,7 @@ Sinh viên/nhóm cần ghi lại:
 
 | STT | Ngày | Công cụ AI | Mục đích | Prompt tóm tắt | Kết quả chính | Có sử dụng vào bài không? | Minh chứng |
 |---:|---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  | Có / Không |  |
+| 1 | 15/05/2026 | ChatGPT | Phân tích đề tài | Xây dựng ý tưởng hệ thống cho thuê xe máy | Đề xuất kiến trúc mobile + backend + admin web | Có | README.md |
 | 2 |  |  |  |  |  | Có / Không |  |
 | 3 |  |  |  |  |  | Có / Không |  |
 | 4 |  |  |  |  |  | Có / Không |  |
@@ -75,16 +75,19 @@ Sinh viên/nhóm cần ghi lại:
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích |  |
-| Phần việc liên quan | Requirement / Design / Database / Coding / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỏi ý tưởng / Hỏi giải thích / Hỏi review / Hỏi debug / Hỏi sinh code / Hỏi tối ưu |
+| Ngày sử dụng | 15/05/2026 |
+| Công cụ AI | ChatGPT |
+| Mục đích | Phân tích và định hướng đề tài |
+| Phần việc liên quan | Requirement |
+| Mức độ sử dụng | Hỏi ý tưởng |
+
 
 #### 5.1. Prompt nguyên văn
 
 ```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
+Tôi muốn làm một dự án web kiêm mobile React Native, NodeJS, Express và MongoDB.
+Dự án tên là Motov - hệ thống quản lí và cho thuê xe máy.
+Hãy đề xuất hướng phát triển phù hợp cho project này.
 ```
 
 #### 5.2. Bối cảnh khi viết prompt
@@ -92,7 +95,7 @@ Dán nguyên văn prompt đã hỏi AI tại đây.
 Mô tả ngắn gọn vì sao sinh viên/nhóm cần dùng prompt này.
 
 ```text
-Viết tại đây...
+Nhóm đang tìm ý tưởng phù hợp cho project môn MMA301.
 ```
 
 #### 5.3. Kết quả AI trả về
@@ -100,7 +103,7 @@ Viết tại đây...
 Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
 
 ```text
-Viết tại đây...
+AI đề xuất mô hình gồm mobile app cho khách hàng, backend API bằng NodeJS và admin dashboard quản lí xe máy.
 ```
 
 #### 5.4. Kết quả đã áp dụng vào bài
@@ -108,7 +111,7 @@ Viết tại đây...
 Mô tả phần nào từ kết quả AI đã được sử dụng vào bài tập/project.
 
 ```text
-Viết tại đây...
+Nhóm sử dụng kiến trúc được đề xuất để định hướng project ban đầu.
 ```
 
 #### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
@@ -116,7 +119,7 @@ Viết tại đây...
 Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với kết quả AI trả về.
 
 ```text
-Viết tại đây...
+Nhóm bổ sung thêm chức năng booking và notification.
 ```
 
 #### 5.6. Đánh giá chất lượng prompt
@@ -124,7 +127,7 @@ Viết tại đây...
 Đánh dấu các nhận xét phù hợp.
 
 - [ ] Prompt rõ ràng
-- [ ] Prompt có đủ bối cảnh
+- [x] Prompt có đủ bối cảnh
 - [ ] Prompt còn thiếu thông tin
 - [ ] Prompt tạo ra kết quả tốt
 - [ ] Prompt tạo ra kết quả chưa phù hợp

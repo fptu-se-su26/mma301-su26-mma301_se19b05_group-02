@@ -19,17 +19,17 @@ Nguyên tắc ghi changelog:
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Repository URL |  |
-| Ngày bắt đầu |  |
-| Ngày hoàn thành |  |
+| Môn học | MMA301 |
+| Mã môn học | MMA301 |
+| Lớp | SE19B05 |
+| Học kỳ | Summer 2026 |
+| Tên bài tập / Project | Motov - Hệ thống quản lí và cho thuê xe máy |
+| Tên sinh viên / Nhóm | Nguyễn Hà Tiến Quang / Nhóm 2 |
+| MSSV / Danh sách MSSV | DE190053 |
+| Giảng viên hướng dẫn | QuangLTN3 |
+| Repository URL | |
+| Ngày bắt đầu | 15/05/2026 |
+| Ngày hoàn thành | Đang thực hiện |
 
 ---
 
@@ -37,12 +37,12 @@ Nguyên tắc ghi changelog:
 
 | Phiên bản/Giai đoạn | Thời gian | Nội dung chính | Trạng thái |
 |---|---|---|---|
-| Phase 01 |  | Khởi tạo project | Not Started / In Progress / Completed |
-| Phase 02 |  | Phân tích yêu cầu | Not Started / In Progress / Completed |
-| Phase 03 |  | Thiết kế hệ thống | Not Started / In Progress / Completed |
-| Phase 04 |  | Implementation | Not Started / In Progress / Completed |
-| Phase 05 |  | Testing & Debug | Not Started / In Progress / Completed |
-| Phase 06 |  | Hoàn thiện báo cáo và demo | Not Started / In Progress / Completed |
+| Phase 01 | 15/05/2026 | Khởi tạo project | In Progress |
+| Phase 02 | 15/05/2026 | Phân tích yêu cầu | Not Started |
+| Phase 03 | Chưa thực hiện | Thiết kế hệ thống | Not Started |
+| Phase 04 | Chưa thực hiện | Implementation | Not Started |
+| Phase 05 | Chưa thực hiện | Testing & Debug | Not Started |
+| Phase 06 | Chưa thực hiện | Hoàn thiện báo cáo và demo | Not Started |
 
 ---
 
@@ -51,7 +51,7 @@ Nguyên tắc ghi changelog:
 ## Ngày thực hiện
 
 ```text
-DD/MM/YYYY
+15/05/2026
 ```
 
 ## Đã hoàn thành

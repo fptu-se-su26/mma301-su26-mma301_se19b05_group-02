@@ -4,16 +4,16 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày bắt đầu |  |
-| Ngày hoàn thành |  |
+| Môn học | MMA301 |
+| Mã môn học | MMA301 |
+| Lớp | SE19B05 |
+| Học kỳ | Summer 2026 |
+| Tên bài tập / Project | Motov - Hệ thống quản lí và cho thuê xe máy |
+| Tên sinh viên / Nhóm | Nguyễn Hà Tiến Quang / Nhóm 2 |
+| MSSV / Danh sách MSSV | DE190053 |
+| Giảng viên hướng dẫn | QuangLTN3 |
+| Ngày bắt đầu | 15/05/2026 |
+| Ngày hoàn thành | Đang thực hiện |
 
 ---
 
@@ -21,7 +21,7 @@
 
 Đánh dấu các công cụ AI đã sử dụng trong quá trình thực hiện bài tập/project.
 
-- [ ] ChatGPT
+- [x] ChatGPT
 - [ ] Gemini
 - [ ] Claude
 - [ ] GitHub Copilot
@@ -55,37 +55,44 @@ Ví dụ:
 ### Mô tả mục tiêu sử dụng AI
 
 ```text
-Viết tại đây...
+Nhóm sử dụng AI để hỗ trợ phân tích đề tài, định hướng kiến trúc hệ thống và đề xuất công nghệ phù hợp cho project Motov.
+AI được sử dụng như công cụ hỗ trợ ý tưởng và tham khảo giải pháp trong giai đoạn đầu của project.
 
-## 4. Nhật ký sử dụng AI chi tiết
+### 4. Nhật ký sử dụng AI chi tiết
 
 > Mỗi lần sử dụng AI cho một phần quan trọng của bài tập/project, sinh viên cần ghi lại theo mẫu bên dưới.  
 > Sinh viên/nhóm có thể nhân bản mẫu “Lần sử dụng AI” nhiều lần tùy theo số lần sử dụng AI thực tế.
 
 ---
 
+
+---
+
+# Lần sử dụng AI số 1
+
 ### Lần sử dụng AI số 1
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích sử dụng |  |
-| Phần việc liên quan | Requirement / Design / Database / Frontend / Backend / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỗ trợ ý tưởng / Hỗ trợ một phần / Hỗ trợ nhiều / Sinh chính nội dung |
+| Ngày sử dụng | 15/05/2026 |
+| Công cụ AI | ChatGPT |
+| Mục đích sử dụng | Phân tích và định hướng đề tài |
+| Phần việc liên quan | Requirement |
+| Mức độ sử dụng | Hỗ trợ ý tưởng |
 
 #### 4.1. Prompt đã sử dụng
 
 ```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
+Tôi muốn làm một dự án web kiêm mobile React Native, NodeJS, Express và MongoDB.
+Dự án tên là Motov - hệ thống quản lí và cho thuê xe máy.
+Hãy đề xuất hướng phát triển phù hợp cho project này.
 
 #### 4.2. Kết quả AI gợi ý
 
 Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
 
 ```text
-Viết tại đây...
+AI đề xuất mô hình gồm mobile app cho khách hàng, backend API bằng NodeJS và admin dashboard để quản lí xe máy và booking.
 ```
 
 #### 4.3. Phần sinh viên/nhóm đã sử dụng từ AI
@@ -93,7 +100,7 @@ Viết tại đây...
 Mô tả rõ phần nào được sử dụng lại từ gợi ý của AI.
 
 ```text
-Viết tại đây...
+Nhóm sử dụng định hướng kiến trúc hệ thống để xây dựng ý tưởng ban đầu cho project.
 ```
 
 #### 4.4. Phần sinh viên/nhóm tự chỉnh sửa hoặc cải tiến
@@ -101,7 +108,7 @@ Viết tại đây...
 Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với gợi ý ban đầu của AI.
 
 ```text
-Viết tại đây...
+Nhóm bổ sung thêm ý tưởng notification và chức năng đặt xe trực tuyến.
 ```
 
 #### 4.5. Minh chứng
@@ -120,7 +127,7 @@ Viết tại đây...
 Sinh viên/nhóm học được gì sau lần sử dụng AI này?
 
 ```text
-Viết tại đây...
+AI hỗ trợ tốt trong việc định hướng project và đề xuất công nghệ phù hợp cho hệ thống.
 ```
 
 ---

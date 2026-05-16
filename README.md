@@ -20,7 +20,7 @@
 | 1 |  |  |  | Leader |  |
 | 2 |  |  |  | Member |  |
 | 3 |  |  |  | Member |  |
-| 4 |  |  |  | Member |  |
+| 4 | DE190434 | Đặng Phương Khôi Nguyên | Eggprime1963 | Member |  |
 | 5 | DE180507 | Mai Xuân Tùng | tungmxde180507-source | Member |  |
 
 ---

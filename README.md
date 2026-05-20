@@ -4,12 +4,13 @@
 
 | Item | Description |
 |---|---|
-| Course |  |
-| Class |  |
+| Course | MMA301 |
+| Class | SE19B05 | 
 | Semester | SU26 |
-| Group |  |
-| Topic |  |
+| Group | Group 2 |
+| Topic | Motorbike Rental Management System |
 | Repository |  |
+
 
 ---
 
@@ -19,9 +20,9 @@
 |---:|---|---|---|---|---|
 | 1 |  |  |  | Leader |  |
 | 2 |  |  |  | Member |  |
-| 3 |  |  |  | Member |  |
-| 4 |  |  |  | Member |  |
-| 5 |  |  |  | Member |  |
+| 3 | DE180515 | Lê Thị Bảo Uyên | LeUyen76 | Member |  |
+| 4 | DE190434 | Đặng Phương Khôi Nguyên | Eggprime1963 | Member |  |
+| 5 | DE180507 | Mai Xuân Tùng | tungmxde180507-source | Member |  |
 
 ---
 

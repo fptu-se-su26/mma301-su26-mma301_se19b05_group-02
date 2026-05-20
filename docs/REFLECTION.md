@@ -4,15 +4,15 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày hoàn thành reflection |  |
+| Môn học | MMA301 |
+| Mã môn học | MMA301 |
+| Lớp | SE19B05 |
+| Học kỳ | Summer 2026 |
+| Tên bài tập / Project | Motov - Hệ thống quản lí và cho thuê xe máy |
+| Tên sinh viên / Nhóm | Trần Quang Bửu Hoàng / Nhóm 2 |
+| MSSV / Danh sách MSSV | DE180962 |
+| Giảng viên hướng dẫn | QuangLTN3 |
+| Ngày hoàn thành reflection | 16/05/2026 |
 
 ---
 
@@ -32,11 +32,12 @@ Reflection cần thể hiện:
 
 ## 3. Tóm tắt quá trình sử dụng AI
 
-Mô tả ngắn gọn quá trình sử dụng AI trong bài tập/project này.
-
 ```text
-Viết tại đây...
-```
+Trong giai đoạn đầu của project, nhóm sử dụng ChatGPT để hỗ trợ phân tích đề tài, định hướng kiến trúc hệ thống và lựa chọn công nghệ phù hợp.
+
+AI được sử dụng chủ yếu để gợi ý ý tưởng và hỗ trợ định hướng cho project Motov gồm mobile app, backend API và admin dashboard.
+
+Nhóm không sử dụng nguyên văn toàn bộ kết quả từ AI mà có thảo luận và điều chỉnh lại theo yêu cầu môn học.
 
 Gợi ý:
 
@@ -52,7 +53,7 @@ Gợi ý:
 
 Đánh dấu các công cụ AI đã sử dụng.
 
-- [ ] ChatGPT
+- [x] ChatGPT
 - [ ] Gemini
 - [ ] Claude
 - [ ] GitHub Copilot
@@ -65,13 +66,13 @@ Gợi ý:
 ### Công cụ được sử dụng nhiều nhất
 
 ```text
-Viết tại đây...
+ChatGPT
 ```
 
 ### Lý do sử dụng công cụ đó
 
 ```text
-Viết tại đây...
+ChatGPT hỗ trợ tốt trong việc phân tích ý tưởng project, giải thích công nghệ và đề xuất hướng phát triển phù hợp.
 ```
 
 ---
@@ -80,12 +81,12 @@ Viết tại đây...
 
 Đánh dấu các nội dung phù hợp.
 
-- [ ] Hiểu yêu cầu đề bài
-- [ ] Phân tích bài toán
-- [ ] Tìm ý tưởng giải pháp
+- [x] Hiểu yêu cầu đề bài
+- [x] Phân tích bài toán
+- [x] Tìm ý tưởng giải pháp
 - [ ] Thiết kế database
 - [ ] Thiết kế giao diện
-- [ ] Thiết kế kiến trúc hệ thống
+- [x] Thiết kế kiến trúc hệ thống
 - [ ] Viết code mẫu
 - [ ] Debug lỗi
 - [ ] Viết test case
@@ -94,13 +95,14 @@ Viết tại đây...
 - [ ] Kiểm tra bảo mật
 - [ ] Viết báo cáo
 - [ ] Chuẩn bị thuyết trình
-- [ ] Tìm hiểu công nghệ mới
+- [x] Tìm hiểu công nghệ mới
 - [ ] Khác: ....................................
 
 ### Mô tả chi tiết
 
 ```text
-Viết tại đây...
+AI hỗ trợ nhóm định hướng hệ thống gồm mobile app React Native, backend NodeJS/Express và MongoDB database.
+Ngoài ra AI còn giúp giải thích vai trò của từng công nghệ trong hệ thống fullstack.
 ```
 
 ---
@@ -110,7 +112,7 @@ Viết tại đây...
 ### 6.1. Những điểm AI giúp em/nhóm học tốt hơn
 
 ```text
-Viết tại đây...
+AI giúp nhóm hiểu nhanh hơn về mô hình fullstack application và cách kết hợp giữa mobile app, backend API và database.
 ```
 
 Gợi ý:
@@ -126,7 +128,7 @@ Gợi ý:
 ### 6.2. Những điểm AI chưa giúp tốt hoặc gây khó khăn
 
 ```text
-Viết tại đây...
+Một số gợi ý từ AI còn khá tổng quát nên nhóm cần tự điều chỉnh để phù hợp với phạm vi project môn học.
 ```
 
 Gợi ý:
@@ -142,14 +144,14 @@ Gợi ý:
 ### 6.3. Em/nhóm có bị phụ thuộc vào AI không?
 
 - [ ] Không phụ thuộc
-- [ ] Phụ thuộc ít
+- [x] Phụ thuộc ít
 - [ ] Phụ thuộc trung bình
 - [ ] Phụ thuộc nhiều
 
 Giải thích:
 
 ```text
-Viết tại đây...
+Nhóm chỉ sử dụng AI để hỗ trợ ý tưởng và tham khảo giải pháp, chưa sử dụng AI để làm toàn bộ project.
 ```
 
 ---
@@ -161,20 +163,20 @@ Viết tại đây...
 - [ ] Chạy thử chương trình
 - [ ] Kiểm tra output
 - [ ] Viết test case
-- [ ] So sánh với yêu cầu đề bài
+- [x] So sánh với yêu cầu đề bài
 - [ ] Đối chiếu với tài liệu môn học
 - [ ] Review code
 - [ ] Hỏi lại giảng viên
 - [ ] Tra cứu tài liệu chính thống
-- [ ] Thảo luận với thành viên nhóm
+- [x] Thảo luận với thành viên nhóm
 - [ ] Kiểm tra bằng dữ liệu mẫu
-- [ ] So sánh trước và sau khi dùng AI
+- [x] So sánh trước và sau khi dùng AI
 - [ ] Khác: ....................................
 
 ### Mô tả quá trình kiểm chứng
 
 ```text
-Viết tại đây...
+Nhóm kiểm tra các gợi ý của AI bằng cách đối chiếu với yêu cầu môn học và thảo luận với các thành viên trước khi áp dụng.
 ```
 
 ### Ví dụ cụ thể về một lần kiểm chứng
@@ -213,7 +215,8 @@ Trong quá trình thực hiện, em/nhóm chưa ghi nhận trường hợp AI g�
 Mô tả rõ phần nào là đóng góp chính của sinh viên/nhóm, không phải chỉ copy từ AI.
 
 ```text
-Viết tại đây...
+Nhóm tự phân tích requirement, lựa chọn công nghệ phù hợp và định hướng chức năng cho project.
+AI chỉ đóng vai trò hỗ trợ ý tưởng và tham khảo giải pháp.
 ```
 
 Gợi ý:
@@ -249,7 +252,7 @@ Gợi ý:
 Sau bài tập/project này, em/nhóm học được gì về kiến thức môn học?
 
 ```text
-Viết tại đây...
+Sau giai đoạn đầu của project, nhóm hiểu rõ hơn về mô hình fullstack application và cách tổ chức một hệ thống gồm mobile app, backend API và database.
 ```
 
 Gợi ý:
@@ -271,7 +274,7 @@ Gợi ý:
 Sau bài tập/project này, em/nhóm học được gì về việc sử dụng AI một cách minh bạch, có trách nhiệm?
 
 ```text
-Viết tại đây...
+Nhóm hiểu rằng AI chỉ nên được sử dụng như công cụ hỗ trợ học tập và cần kiểm tra lại mọi kết quả trước khi áp dụng vào project thực tế.
 ```
 
 Gợi ý:
@@ -290,12 +293,12 @@ Gợi ý:
 
 Đánh dấu các cam kết phù hợp.
 
-- [ ] Không dùng AI để làm toàn bộ bài mà không hiểu nội dung.
-- [ ] Không nộp nguyên văn kết quả AI nếu chưa kiểm tra.
-- [ ] Không che giấu việc sử dụng AI trong các phần quan trọng.
-- [ ] Không dùng AI để tạo nội dung sai lệch hoặc gian lận.
-- [ ] Không dùng AI thay thế hoàn toàn quá trình học.
-- [ ] Không bỏ qua yêu cầu, rubric hoặc hướng dẫn của giảng viên.
+- [x] Không dùng AI để làm toàn bộ bài mà không hiểu nội dung.
+- [x] Không nộp nguyên văn kết quả AI nếu chưa kiểm tra.
+- [x] Không che giấu việc sử dụng AI trong các phần quan trọng.
+- [x] Không dùng AI để tạo nội dung sai lệch hoặc gian lận.
+- [x] Không dùng AI thay thế hoàn toàn quá trình học.
+- [x] Không bỏ qua yêu cầu, rubric hoặc hướng dẫn của giảng viên.
 
 ### Giải thích thêm nếu có
 
@@ -310,7 +313,7 @@ Viết tại đây...
 Lần sau em/nhóm sẽ sử dụng AI tốt hơn bằng cách nào?
 
 ```text
-Viết tại đây...
+Lần sau nhóm sẽ viết prompt rõ ràng hơn, cung cấp nhiều ngữ cảnh hơn và kiểm tra kết quả AI kỹ hơn trước khi sử dụng.
 ```
 
 Gợi ý:
@@ -333,13 +336,13 @@ Sinh viên/nhóm tự đánh giá theo thang 1-5.
 
 | Tiêu chí | Điểm tự đánh giá 1-5 | Ghi chú |
 |---|:---:|---|
-| Ghi nhận việc dùng AI trung thực |  |  |
-| Prompt có mục tiêu rõ ràng |  |  |
-| Kiểm chứng kết quả AI |  |  |
-| Tự chỉnh sửa/cải tiến |  |  |
-| Hiểu nội dung đã nộp |  |  |
-| Reflection có chiều sâu |  |  |
-| Sử dụng AI có trách nhiệm |  |  |
+| Ghi nhận việc dùng AI trung thực | 5 | |
+| Prompt có mục tiêu rõ ràng | 4 | |
+| Kiểm chứng kết quả AI | 4 | |
+| Tự chỉnh sửa/cải tiến | 4 | |
+| Hiểu nội dung đã nộp | 5 | |
+| Reflection có chiều sâu | 4 | |
+| Sử dụng AI có trách nhiệm | 5 | |
 
 ---
 
@@ -350,25 +353,25 @@ Trả lời ngắn gọn các câu hỏi sau.
 ### 16.1. Nếu giảng viên hỏi về phần AI đã hỗ trợ, em/nhóm có giải thích lại được không?
 
 ```text
-Viết tại đây...
+Có. Nhóm hiểu rõ các phần đã sử dụng từ AI và có thể giải thích lại.
 ```
 
 ### 16.2. Nếu không có AI, em/nhóm có thể tự làm lại phần quan trọng nhất không?
 
 ```text
-Viết tại đây...
+Có, nhưng sẽ mất nhiều thời gian hơn trong việc định hướng hệ thống và nghiên cứu công nghệ.
 ```
 
 ### 16.3. Phần nào trong bài thể hiện rõ nhất năng lực thật sự của em/nhóm?
 
 ```text
-Viết tại đây...
+Phần phân tích yêu cầu và định hướng kiến trúc hệ thống.
 ```
 
 ### 16.4. Em/nhóm muốn cải thiện kỹ năng nào sau bài này?
 
 ```text
-Viết tại đây...
+Kỹ năng thiết kế backend API và tổ chức hệ thống fullstack.
 ```
 
 ---
@@ -386,4 +389,4 @@ Sinh viên/nhóm hiểu rằng:
 
 | Đại diện sinh viên/nhóm | Ngày xác nhận |
 |---|---|
-|  |  |
+| Trần Quang Bửu Hoàng | 16/05/2026 |

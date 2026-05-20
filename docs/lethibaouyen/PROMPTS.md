@@ -9,8 +9,8 @@
 | Lớp | SE19B05 |
 | Học kỳ | 7 |
 | Tên bài tập / Project | Motov - Hệ thống cho thuê xe máy |
-| Tên sinh viên / Nhóm |  Trần Quang Bửu Hoàng / 2|
-| MSSV / Danh sách MSSV | DE180962 |
+| Tên sinh viên / Nhóm |  Lê Thị Bảo Uyên / 2|
+| MSSV / Danh sách MSSV | DE180515 |
 | Giảng viên hướng dẫn | QuangLTN3 |
 | Ngày bắt đầu |  15/5/2026 |
 | Ngày cập nhật gần nhất | 16/5/2026 |
@@ -53,16 +53,15 @@ Sinh viên/nhóm cần ghi lại:
 | STT | Ngày | Công cụ AI | Mục đích | Prompt tóm tắt | Kết quả chính | Có sử dụng vào bài không? | Minh chứng |
 |---:|---|---|---|---|---|---|---|
 | 1 | 15/05/2026 | ChatGPT | Phân tích đề tài | Xây dựng ý tưởng hệ thống cho thuê xe máy | Đề xuất kiến trúc mobile + backend + admin web | Có | README.md |
-| 2 |  |  |  |  |  | Có / Không |  |
-| 3 |  |  |  |  |  | Có / Không |  |
-| 4 |  |  |  |  |  | Có / Không |  |
-| 5 |  |  |  |  |  | Có / Không |  |
-| 6 |  |  |  |  |  | Có / Không |  |
-| 7 |  |  |  |  |  | Có / Không |  |
-| 8 |  |  |  |  |  | Có / Không |  |
-| 9 |  |  |  |  |  | Có / Không |  |
-| 10 |  |  |  |  |  | Có / Không |  |
-
+| 2 | 16/05/2026 | ChatGPT | Thiết kế kiến trúc | Gợi ý cấu trúc project React Native + NodeJS | Đề xuất folder structure chuẩn | Có | Project Structure |
+| 3 | 16/05/2026 | ChatGPT | Thiết kế database | Gợi ý ERD cho hệ thống thuê xe máy | Đề xuất collections MongoDB | Có | ERD Diagram |
+| 4 | 17/05/2026 | ChatGPT | Thiết kế UI | Gợi ý dashboard hiện đại cho Motov | Đề xuất giao diện admin dashboard | Có | Wireframe |
+| 5 | 17/05/2026 | ChatGPT | Viết use case | Gợi ý user roles và use cases | Đề xuất các chức năng hệ thống | Có | Use Case Diagram |
+| 6 | 18/05/2026 | ChatGPT | Viết requirement | Functional và non-functional requirements | Hoàn thiện tài liệu SRS | Có | Requirement Document |
+| 7 | 18/05/2026 | ChatGPT | API Design | Thiết kế RESTful API cho Motov | Đề xuất endpoint backend | Có | API Document |
+| 8 | 19/05/2026 | ChatGPT | UI/UX Mobile | Gợi ý giao diện mobile app | Đề xuất flow mobile booking | Có | Mobile Wireframe |
+| 9 | 19/05/2026 | ChatGPT | Dashboard Analytics | Gợi ý biểu đồ và thống kê | Đề xuất analytics dashboard | Có | Dashboard UI |
+| 10 | 20/05/2026 | ChatGPT | Documentation | Hỗ trợ viết changelog và AI audit log | Hoàn thiện tài liệu project | Có | CHANGELOG.md |
 ---
 
 ## 5. Prompt chi tiết
@@ -75,64 +74,47 @@ Sinh viên/nhóm cần ghi lại:
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng | 15/05/2026 |
+| Ngày sử dụng | 16/05/2026 |
 | Công cụ AI | ChatGPT |
-| Mục đích | Phân tích và định hướng đề tài |
-| Phần việc liên quan | Requirement |
-| Mức độ sử dụng | Hỏi ý tưởng |
+| Mục đích | Thiết kế cấu trúc project |
+| Phần việc liên quan | Architecture |
+| Mức độ sử dụng | Hỏi cấu trúc project |
+
 
 
 #### 5.1. Prompt nguyên văn
 
-```text
-Tôi muốn làm một dự án web kiêm mobile React Native, NodeJS, Express và MongoDB.
-Dự án tên là Motov - hệ thống quản lí và cho thuê xe máy.
-Hãy đề xuất hướng phát triển phù hợp cho project này.
-```
+
+Hãy gợi ý cấu trúc thư mục cho project Motov gồm React web, React Native mobile app, NodeJS Express backend và MongoDB.
+
 
 #### 5.2. Bối cảnh khi viết prompt
 
-Mô tả ngắn gọn vì sao sinh viên/nhóm cần dùng prompt này.
-
-```text
-Nhóm đang tìm ý tưởng phù hợp cho project môn MMA301.
-```
+Nhóm cần tổ chức source code rõ ràng để thuận tiện phát triển và quản lí project.
 
 #### 5.3. Kết quả AI trả về
 
-Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
-
-```text
-AI đề xuất mô hình gồm mobile app cho khách hàng, backend API bằng NodeJS và admin dashboard quản lí xe máy.
-```
+AI đề xuất chia project thành client-web, mobile-app, server và docs.
 
 #### 5.4. Kết quả đã áp dụng vào bài
 
-Mô tả phần nào từ kết quả AI đã được sử dụng vào bài tập/project.
-
-```text
-Nhóm sử dụng kiến trúc được đề xuất để định hướng project ban đầu.
-```
+Nhóm sử dụng cấu trúc thư mục được đề xuất để khởi tạo repository.
 
 #### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
 
-Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với kết quả AI trả về.
-
-```text
-Nhóm bổ sung thêm chức năng booking và notification.
-```
+Nhóm bổ sung thêm thư mục assets và components cho frontend.
 
 #### 5.6. Đánh giá chất lượng prompt
 
 Đánh dấu các nhận xét phù hợp.
 
-- [ ] Prompt rõ ràng
+- [x] Prompt rõ ràng
 - [x] Prompt có đủ bối cảnh
 - [ ] Prompt còn thiếu thông tin
-- [ ] Prompt tạo ra kết quả tốt
+- [x] Prompt tạo ra kết quả tốt
 - [ ] Prompt tạo ra kết quả chưa phù hợp
 - [ ] Cần hỏi lại AI nhiều lần
-- [ ] Cần tự kiểm tra và chỉnh sửa nhiều
+- [x] Cần tự kiểm tra và chỉnh sửa nhiều
 - [ ] Kết quả AI có lỗi hoặc chưa chính xác
 
 #### 5.7. Minh chứng liên quan
@@ -140,17 +122,15 @@ Nhóm bổ sung thêm chức năng booking và notification.
 | Loại minh chứng | Nội dung |
 |---|---|
 | Link commit |  |
-| File liên quan |  |
-| Screenshot |  |
-| Kết quả chạy/test |  |
+| File liên quan | README.md |
+| Screenshot | Screenshot cấu trúc project |
+| Kết quả chạy/test | Project chạy thành công |
 | Link tài liệu/báo cáo |  |
 | Ghi chú khác |  |
 
 #### 5.8. Ghi chú thêm
 
-```text
-Viết tại đây...
-```
+Cấu trúc project giúp nhóm dễ quản lí source code giữa web, mobile và backend.
 
 ---
 
@@ -158,51 +138,41 @@ Viết tại đây...
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích |  |
-| Phần việc liên quan | Requirement / Design / Database / Coding / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỏi ý tưởng / Hỏi giải thích / Hỏi review / Hỏi debug / Hỏi sinh code / Hỏi tối ưu |
+| Ngày sử dụng | 16/05/2026 |
+| Công cụ AI | ChatGPT |
+| Mục đích | Thiết kế database |
+| Phần việc liên quan | Database Design |
+| Mức độ sử dụng | Gợi ý ERD |
 
 #### 5.1. Prompt nguyên văn
 
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
+Hãy gợi ý database MongoDB cho hệ thống quản lí và cho thuê xe máy Motov.
 
 #### 5.2. Bối cảnh khi viết prompt
 
-```text
-Viết tại đây...
-```
+Nhóm cần xác định các collection và mối quan hệ dữ liệu của hệ thống.
 
 #### 5.3. Kết quả AI trả về
 
-```text
-Viết tại đây...
-```
+AI đề xuất các collection gồm Users, Motorbikes, Bookings, Payments và Reviews.
 
 #### 5.4. Kết quả đã áp dụng vào bài
 
-```text
-Viết tại đây...
-```
+Nhóm sử dụng các collection được đề xuất để xây dựng ERD ban đầu.
 
 #### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
 
-```text
-Viết tại đây...
-```
+Nhóm bổ sung thêm collection Notifications và VehicleMaintenance.
 
 #### 5.6. Đánh giá chất lượng prompt
 
-- [ ] Prompt rõ ràng
-- [ ] Prompt có đủ bối cảnh
+- [x] Prompt rõ ràng
+- [x] Prompt có đủ bối cảnh
 - [ ] Prompt còn thiếu thông tin
-- [ ] Prompt tạo ra kết quả tốt
+- [x] Prompt tạo ra kết quả tốt
 - [ ] Prompt tạo ra kết quả chưa phù hợp
 - [ ] Cần hỏi lại AI nhiều lần
-- [ ] Cần tự kiểm tra và chỉnh sửa nhiều
+- [x] Cần tự kiểm tra và chỉnh sửa nhiều
 - [ ] Kết quả AI có lỗi hoặc chưa chính xác
 
 #### 5.7. Minh chứng liên quan
@@ -210,17 +180,15 @@ Viết tại đây...
 | Loại minh chứng | Nội dung |
 |---|---|
 | Link commit |  |
-| File liên quan |  |
-| Screenshot |  |
-| Kết quả chạy/test |  |
+| File liên quan | ERD Diagram |
+| Screenshot | Screenshot ERD |
+| Kết quả chạy/test | MongoDB schema hoạt động |
 | Link tài liệu/báo cáo |  |
 | Ghi chú khác |  |
 
 #### 5.8. Ghi chú thêm
 
-```text
-Viết tại đây...
-```
+Database được tối ưu theo hướng REST API và MongoDB NoSQL.
 
 ---
 
@@ -228,51 +196,41 @@ Viết tại đây...
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích |  |
-| Phần việc liên quan | Requirement / Design / Database / Coding / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỏi ý tưởng / Hỏi giải thích / Hỏi review / Hỏi debug / Hỏi sinh code / Hỏi tối ưu |
+| Ngày sử dụng | 17/05/2026 |
+| Công cụ AI | ChatGPT  |
+| Mục đích | Thiết kế UI Dashboard |
+| Phần việc liên quan | UI/UX |
+| Mức độ sử dụng | Gợi ý giao diện |
 
 #### 5.1. Prompt nguyên văn
 
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
+Hãy gợi ý giao diện dashboard hiện đại cho hệ thống Motov.
 
 #### 5.2. Bối cảnh khi viết prompt
 
-```text
-Viết tại đây...
-```
+Nhóm muốn thiết kế dashboard hiện đại, dễ sử dụng và phù hợp với hệ thống quản lí thuê xe.
 
 #### 5.3. Kết quả AI trả về
 
-```text
-Viết tại đây...
-```
+AI đề xuất dashboard theo phong cách modern minimal với sidebar, analytics chart và thống kê xe.
 
 #### 5.4. Kết quả đã áp dụng vào bài
 
-```text
-Viết tại đây...
-```
+Nhóm sử dụng layout dashboard và card analytics để thiết kế wireframe.
 
 #### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
 
-```text
-Viết tại đây...
-```
+Nhóm bổ sung thêm dark mode và bảng quản lí booking.
 
 #### 5.6. Đánh giá chất lượng prompt
 
-- [ ] Prompt rõ ràng
-- [ ] Prompt có đủ bối cảnh
+- [x] Prompt rõ ràng
+- [x] Prompt có đủ bối cảnh
 - [ ] Prompt còn thiếu thông tin
-- [ ] Prompt tạo ra kết quả tốt
+- [x] Prompt tạo ra kết quả tốt
 - [ ] Prompt tạo ra kết quả chưa phù hợp
 - [ ] Cần hỏi lại AI nhiều lần
-- [ ] Cần tự kiểm tra và chỉnh sửa nhiều
+- [x] Cần tự kiểm tra và chỉnh sửa nhiều
 - [ ] Kết quả AI có lỗi hoặc chưa chính xác
 
 #### 5.7. Minh chứng liên quan
@@ -280,17 +238,15 @@ Viết tại đây...
 | Loại minh chứng | Nội dung |
 |---|---|
 | Link commit |  |
-| File liên quan |  |
-| Screenshot |  |
-| Kết quả chạy/test |  |
+| File liên quan | Wireframe |
+| Screenshot | Screenshot dashboard |
+| Kết quả chạy/test | UI hiển thị đúng |
 | Link tài liệu/báo cáo |  |
 | Ghi chú khác |  |
 
 #### 5.8. Ghi chú thêm
 
-```text
-Viết tại đây...
-```
+Dashboard được thiết kế responsive để hỗ trợ cả desktop và tablet.
 
 ---
 

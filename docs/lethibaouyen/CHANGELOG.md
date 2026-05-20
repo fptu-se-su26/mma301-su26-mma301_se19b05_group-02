@@ -24,8 +24,8 @@ Nguyên tắc ghi changelog:
 | Lớp | SE19B05 |
 | Học kỳ | Summer 2026 |
 | Tên bài tập / Project | Motov - Hệ thống quản lí và cho thuê xe máy |
-| Tên sinh viên / Nhóm | Trần Quang Bửu Hoàng / Nhóm 2 |
-| MSSV / Danh sách MSSV | DE180962 |
+| Tên sinh viên / Nhóm | Lê Thị Bảo Uyên / Nhóm 2 |
+| MSSV / Danh sách MSSV | DE180515 |
 | Giảng viên hướng dẫn | QuangLTN3 |
 | Repository URL | |
 | Ngày bắt đầu | 15/05/2026 |
@@ -38,7 +38,7 @@ Nguyên tắc ghi changelog:
 | Phiên bản/Giai đoạn | Thời gian | Nội dung chính | Trạng thái |
 |---|---|---|---|
 | Phase 01 | 15/05/2026 | Khởi tạo project | In Progress |
-| Phase 02 | 15/05/2026 | Phân tích yêu cầu | Not Started |
+| Phase 02 | 20/05/2026 | Phân tích yêu cầu | In Progress |
 | Phase 03 | Chưa thực hiện | Thiết kế hệ thống | Not Started |
 | Phase 04 | Chưa thực hiện | Implementation | Not Started |
 | Phase 05 | Chưa thực hiện | Testing & Debug | Not Started |
@@ -56,48 +56,60 @@ Nguyên tắc ghi changelog:
 
 ## Đã hoàn thành
 
-- [ ] Tạo repository
-- [ ] Tạo cấu trúc thư mục project
-- [ ] Tạo file README.md
-- [ ] Tạo thư mục `docs/`
-- [ ] Tạo file `AI_AUDIT_LOG.md`
-- [ ] Tạo file `PROMPTS.md`
-- [ ] Tạo file `REFLECTION.md`
-- [ ] Tạo file `CHANGELOG.md`
-- [ ] Khởi tạo source code ban đầu
-- [ ] Cài đặt thư viện/công cụ cần thiết
-- [ ] Cấu hình môi trường chạy project
+- [x] Tạo repository
+- [x] Tạo cấu trúc thư mục project
+- [x] Tạo file README.md
+- [x] Tạo thư mục `docs/`
+- [x] Tạo file `AI_AUDIT_LOG.md`
+- [x] Tạo file `PROMPTS.md`
+- [x] Tạo file `REFLECTION.md`
+- [x] Tạo file `CHANGELOG.md`
+- [x] Khởi tạo source code ban đầu
+- [x] Cài đặt thư viện/công cụ cần thiết
+- [x] Cấu hình môi trường chạy project
 
 ## Thay đổi chi tiết
 
 | STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
 |---:|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+| 1 | Tạo repository GitHub cho project Motov | Lê Thị Bảo Uyên | GitHub Repository | Screenshot repository |
+| 2 | Khởi tạo cấu trúc thư mục gồm client-web, mobile-app, server, docs | Lê Thị Bảo Uyên | Project Structure | Screenshot VSCode |
+| 3 | Khởi tạo React Native Expo cho mobile app | Lê Thị Bảo Uyên | docs/ | Screenshot folder docs |
+| 4 | Tạo các file tài liệu bắt buộc trong thư mục docs/ | Lê Thị Bảo Uyên | mobile-app/ | Screenshot terminal Expo |
+| 5 | Khởi tạo NodeJS + Express backend | Lê Thị Bảo Uyên | server/ | Screenshot package.json |
+| 6 | Cài đặt các thư viện cơ bản: Express, MongoDB, React Native, TailwindCSS | Lê Thị Bảo Uyên | package.json | Screenshot npm install |
+| 7 | Cấu hình môi trường chạy ban đầu cho frontend và backend | Lê Thị Bảo Uyên | server/, mobile-app/ | Screenshot chạy project |
 
 ## AI có hỗ trợ không?
 
-- [ ] Có
+- [x] Có
 - [ ] Không
 
 Nếu có, mô tả AI đã hỗ trợ phần nào:
 
-```text
-Viết tại đây...
-```
+AI hỗ trợ:
+- Gợi ý ý tưởng project Motov
+- Đề xuất kiến trúc hệ thống web + mobile
+- Gợi ý cấu trúc thư mục project
+- Hướng dẫn khởi tạo React Native Expo
+- Hướng dẫn tạo backend NodeJS + Express
+- Gợi ý công nghệ phù hợp với project
+- Hỗ trợ viết README và CHANGELOG
 
 ## Commit/Screenshot minh chứng
 
-```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
-```
+- Screenshot repository GitHub
+- Screenshot cấu trúc thư mục project trong VSCode
+- Screenshot terminal khởi tạo Expo và NodeJS
+- Link commit GitHub: [(https://github.com/fptu-se-su26/mma301-su26-mma301_se19b05_group-02/tree/lethibaouyen)]
 
 ## Ghi chú
 
-```text
-Viết tại đây...
-```
+Project Motov được định hướng phát triển theo mô hình web + mobile application.
+Frontend web dùng ReactJS.
+Mobile app dùng React Native Expo.
+Backend dùng NodeJS + Express.
+Database sử dụng MongoDB.
 
 ---
 
@@ -106,53 +118,63 @@ Viết tại đây...
 ## Ngày thực hiện
 
 ```text
-DD/MM/YYYY
+19/5/2026
 ```
 
 ## Đã hoàn thành
 
-- [ ] Xác định problem statement
-- [ ] Xác định user roles
-- [ ] Viết user stories
-- [ ] Viết use cases
-- [ ] Xác định functional requirements
-- [ ] Xác định non-functional requirements
-- [ ] Xác định business rules
-- [ ] Xác định acceptance criteria
-- [ ] Review yêu cầu với giảng viên/nhóm
+- [x] Xác định problem statement
+- [x] Xác định user roles
+- [x] Viết user stories
+- [x] Viết use cases
+- [x] Xác định functional requirements
+- [x] Xác định non-functional requirements
+- [x] Xác định business rules
+- [x] Xác định acceptance criteria
+- [x] Review yêu cầu với giảng viên/nhóm
 - [ ] Chỉnh sửa yêu cầu sau feedback
 
 ## Thay đổi chi tiết
 
 | STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
 |---:|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-
+| 1 | Xác định bài toán quản lí và cho thuê xe máy Motov | Lê Thị Bảo Uyên | SRS Document | Screenshot tài liệu |
+| 2 | Xác định các vai trò người dùng gồm Admin, Staff, Customer | Lê Thị Bảo Uyên | Use Case | Screenshot use case |
+| 3 | Viết user stories cho khách hàng và quản trị viên | Lê Thị Bảo Uyên | User Stories |Screenshot tài liệu |
+| 4 | Xác định các chức năng chính của hệ thống | Lê Thị Bảo Uyên | Functional Requirements |Screenshot tài liệu |
+| 5 | Xác định yêu cầu phi chức năng như bảo mật và hiệu năng | Lê Thị Bảo Uyên | Non-functional Requirements |Screenshot tài liệu |
+| 6 | Phân tích quy trình thuê xe và quản lí đơn thuê | Lê Thị Bảo Uyên | Business Flow |Screenshot flow |
+| 7 | Thiết lập acceptance criteria cho các chức năng chính | Lê Thị Bảo Uyên | Requirement Documents | Screenshot tài liệu |
 ## AI có hỗ trợ không?
 
-- [ ] Có
+- [x] Có
 - [ ] Không
 
 Nếu có, mô tả AI đã hỗ trợ phần nào:
 
-```text
-Viết tại đây...
-```
+AI hỗ trợ:
+- Gợi ý hướng phát triển hệ thống Motov
+- Gợi ý user roles và user stories
+- Hỗ trợ xây dựng use case
+- Gợi ý functional requirements và non-functional requirements
+- Gợi ý business rules và acceptance criteria
+- Đề xuất các tính năng phù hợp cho web và mobile app
 
 ## Commit/Screenshot minh chứng
 
-```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
-```
+- Screenshot tài liệu phân tích yêu cầu
+- Screenshot use case diagram
+- Screenshot user stories
+- Link commit GitHub: [https://github.com/fptu-se-su26/mma301-su26-mma301_se19b05_group-02/tree/lethibaouyen]
 
 ## Ghi chú
 
-```text
-Viết tại đây...
-```
-
+Phase 02 tập trung vào việc phân tích yêu cầu và định hướng phát triển hệ thống.
+Project được xây dựng theo hướng hiện đại gồm:
+- Web quản lí
+- Mobile app cho khách hàng
+- Dashboard analytics
+- Quản lí thuê xe thông minh
 ---
 
 # [Phase 03] Thiết kế hệ thống
@@ -160,15 +182,15 @@ Viết tại đây...
 ## Ngày thực hiện
 
 ```text
-DD/MM/YYYY
+20/5/2026
 ```
 
 ## Đã hoàn thành
 
-- [ ] Thiết kế kiến trúc tổng quan
-- [ ] Thiết kế database/ERD
-- [ ] Thiết kế API
-- [ ] Thiết kế giao diện/wireframe
+- [x] Thiết kế kiến trúc tổng quan
+- [x] Thiết kế database/ERD
+- [x] Thiết kế API
+- [x] Thiết kế giao diện/wireframe
 - [ ] Thiết kế flow xử lý
 - [ ] Thiết kế class diagram
 - [ ] Thiết kế sequence diagram
@@ -180,32 +202,37 @@ DD/MM/YYYY
 
 | STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
 |---:|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-
+| 1 | Thiết kế kiến trúc hệ thống web + mobile + backend | Lê Thị Bảo Uyên | Architecture Diagram | Screenshot diagram |
+| 2 | Thiết kế database MongoDB gồm Users, Motorbikes, Bookings, Payments | Lê Thị Bảo Uyên | ERD | Screenshot ERD |
+| 3 | Thiết kế RESTful API cho hệ thống | Lê Thị Bảo Uyên | API Design | Screenshot API |
+| 4 | Thiết kế wireframe dashboard admin Motov | Lê Thị Bảo Uyên | UI/Wireframe | Screenshot wireframe |
+| 5 | Thiết kế giao diện mobile app thuê xe | Lê Thị Bảo Uyên | Mobile UI | Screenshot mobile UI |
 ## AI có hỗ trợ không?
 
-- [ ] Có
+- [x] Có
 - [ ] Không
 
 Nếu có, mô tả AI đã hỗ trợ phần nào:
 
-```text
-Viết tại đây...
-```
+AI hỗ trợ:
+- Gợi ý kiến trúc tổng quan cho hệ thống Motov
+- Gợi ý thiết kế dashboard hiện đại
+- Đề xuất cấu trúc database MongoDB
+- Gợi ý API RESTful phù hợp
+- Hỗ trợ ý tưởng UI/UX cho web và mobile app
 
 ## Commit/Screenshot minh chứng
 
-```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
-```
+- Screenshot wireframe
+- Screenshot ERD
+- Screenshot API design
+- Link commit GitHub: [https://github.com/fptu-se-su26/mma301-su26-mma301_se19b05_group-02/tree/lethibaouyen]
 
 ## Ghi chú
 
-```text
-Viết tại đây...
-```
+Phase 03 tập trung vào thiết kế kiến trúc và giao diện hệ thống.
+Hệ thống được xây dựng theo mô hình REST API và MongoDB.
+Dashboard được định hướng theo phong cách hiện đại, tối giản và responsive.
 
 ---
 

@@ -9,7 +9,7 @@
 | Lớp | SE19B05 |
 | Học kỳ | 7 |
 | Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm | 2 |
+| Tên sinh viên / Nhóm | Đặng Phương Khôi Nguyên |
 | MSSV / Danh sách MSSV | DE190434 |
 | Giảng viên hướng dẫn | 	Lê Thiện Nhật Quang |
 | Ngày bắt đầu | 13/5/2026 |
